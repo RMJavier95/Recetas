@@ -1,0 +1,44 @@
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+html {
+    font-family: PoppinsRegular;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto;
+    display: inline;
+    
+}
+
+#encabezado {
+    
+    width: 100%;
+    height: 45%;
+    background-position: 50% 50%;
+    margin-top: 75px;
+    color: white;
+    
+}
+
+#encabezado img {
+    width: 100%;
+    height: 100%;
+}
+
+#recetas {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-gap: 150px;
+    
+}
+.lista {
+    background-color: orange;
+
+}
