@@ -42,15 +42,3 @@ nav {
     background-color: orange;
 
 }
-
-#marca-reg {
-    height: 50%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.753);
-    color: orange;
-    text-align: center;
-    margin-top:15px;
-    font-size:13px;
-    margin-bottom:0;
-    padding:3% 0;
-}

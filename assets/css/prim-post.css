@@ -1,0 +1,16 @@
+#encabezado2 {
+    width: 100%;
+    height: 20%;
+}
+#recetas {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-gap: 150px;
+}
+.lista {
+    background-color: orange;
+
+}

@@ -11,3 +11,23 @@ h1, h2, h3, h4, h5, h6 {
 html {
     font-family: PoppinsRegular;
 }
+#menu {
+    display: inline;
+}
+.paginacion {
+    text-align: center;
+}
+.ubicacion {
+    color: black;
+}
+#marca-reg {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: orange;
+    text-align: center;
+    margin-top:15px;
+    font-size:13px;
+    margin-bottom:0;
+    padding:3% 0;
+}
