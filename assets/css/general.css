@@ -5,21 +5,37 @@
 @font-face {
     font-family: Arial, Helvetica, sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
     font-family: 'Arial';
     text-align: center;
 }
+
+
 html {
     font-family: PoppinsRegular;
 }
 #menu {
     display: inline;
+    
 }
 #barraMenu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style-type: none;
-  }
+    background-color: orange;
+    
+}
+
+#recetas {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-gap: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
 .paginacion {
     text-align: center;
 }
