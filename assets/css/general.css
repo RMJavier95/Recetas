@@ -7,6 +7,7 @@
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial';
+    text-align: center;
 }
 html {
     font-family: PoppinsRegular;
@@ -14,6 +15,11 @@ html {
 #menu {
     display: inline;
 }
+#barraMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+  }
 .paginacion {
     text-align: center;
 }
